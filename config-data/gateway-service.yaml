@@ -29,3 +29,27 @@ spring:
           uri: lb://bPuntualidad-service
           predicates:
             - Path=/bonoPuntualidad/**
+        - id: bTiempo-service
+          uri: lb://bTiempo-service
+          predicates:
+            - Path=/bonoTiempo/**
+        - id: dLey-service
+          uri: lb://dLey-service
+          predicates:
+            - Path=/dLey/**
+        - id: dRetiro-service
+          uri: lb://dRetiro-service
+          predicates:
+            - Path=/dRetiro/**
+        - id: dTardanza-service
+          uri: lb://dTardanza-service
+          predicates:
+            - Path=/dTardanza/**
+        - id: hExtra-service
+          uri: lb://hExtra-service
+          predicates:
+            - Path=/hExtra/**
+        - id: sueldoFijo-service
+          uri: lb://sueldoFijo-service
+          predicates:
+            - Path=/sueldoFijo/**
