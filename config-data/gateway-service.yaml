@@ -53,3 +53,7 @@ spring:
           uri: lb://sueldoFijo-service
           predicates:
             - Path=/sueldoFijo/**
+        - id: calculo-service
+          uri: lb://calculo-service
+          predicates:
+            - Path=/calculo/**
