@@ -25,7 +25,7 @@ spring:
           uri: lb://archivo-service
           predicates:
             - Path=/upload/**
-        - id: pet-service
-          uri: lb://pet-service
+        - id: bPuntualidad-service
+          uri: lb://bPuntualidad-service
           predicates:
-            - Path=/pet/**
+            - Path=/bonoPuntualidad/**
