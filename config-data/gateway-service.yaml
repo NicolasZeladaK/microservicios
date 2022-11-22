@@ -57,3 +57,7 @@ spring:
           uri: lb://calculo-service
           predicates:
             - Path=/calculo/**
+        - id: justificativo-service
+          uri: lb://justificativo-service
+          predicates:
+            - Path=/justificativo/**
